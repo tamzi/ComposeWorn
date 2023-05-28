@@ -14,15 +14,14 @@
  * limitations under the License.
  */
 
-package com.tamzi.composeworn.presentation.theme
+package com.tamzi.worn.atoms
 
 import androidx.compose.ui.graphics.Color
 import androidx.wear.compose.material.Colors
-import com.tamzi.worn.atoms.ThemeValues
 
-internal data class ThemeValues(val description: String, val colors: Colors)
+data class ThemeValues(val description: String, val colors: Colors)
 
-internal val initialThemeValues = com.tamzi.worn.atoms.ThemeValues(
+internal val initialThemeValues = ThemeValues(
     "Lilac (D0BCFF)",
     Colors(
         primary = Color(0xFFD0BCFF),
@@ -34,8 +33,8 @@ internal val initialThemeValues = com.tamzi.worn.atoms.ThemeValues(
 
 internal val themeValues = listOf(
     initialThemeValues,
-    com.tamzi.worn.atoms.ThemeValues("Blue (Default AECBFA)", Colors()),
-    com.tamzi.worn.atoms.ThemeValues(
+    ThemeValues("Blue (Default AECBFA)", Colors()),
+    ThemeValues(
         "Blue 2 (7FCFFF)",
         Colors(
             primary = Color(0xFF7FCFFF),
@@ -44,7 +43,7 @@ internal val themeValues = listOf(
             secondaryVariant = Color(0xFF1EA446),
         ),
     ),
-    com.tamzi.worn.atoms.ThemeValues(
+    ThemeValues(
         "Green (6DD58C)",
         Colors(
             primary = Color(0xFF6DD58C),

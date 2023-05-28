@@ -19,7 +19,7 @@ package com.tamzi.composeworn.presentation.ui.map
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.tamzi.composeworn.presentation.theme.WornTheme
+import com.tamzi.worn.WornTheme
 
 /**
  * Compose for Wear OS activity that demonstrates a Map.

@@ -31,7 +31,7 @@ import androidx.wear.compose.material.Text
 import androidx.wear.compose.material.ToggleChip
 import androidx.wear.compose.material.ToggleChipDefaults
 import com.google.android.horologist.compose.navscaffold.scrollableColumn
-import com.tamzi.composeworn.presentation.theme.ThemeValues
+import com.tamzi.worn.atoms.ThemeValues
 
 @Composable
 internal fun ThemeScreen(

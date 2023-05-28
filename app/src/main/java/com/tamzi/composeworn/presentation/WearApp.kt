@@ -58,7 +58,7 @@ import com.tamzi.composeworn.presentation.navigation.DestinationScrollType
 import com.tamzi.composeworn.presentation.navigation.SCROLL_TYPE_NAV_ARGUMENT
 import com.tamzi.composeworn.presentation.navigation.Screen
 import com.tamzi.composeworn.presentation.navigation.WATCH_ID_NAV_ARGUMENT
-import com.tamzi.composeworn.presentation.theme.WornTheme
+import com.tamzi.worn.WornTheme
 import com.tamzi.composeworn.presentation.theme.initialThemeValues
 import com.tamzi.composeworn.presentation.theme.themeValues
 import com.tamzi.composeworn.presentation.ui.ScalingLazyListStateViewModel
