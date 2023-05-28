@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ComposeWorn"
 include(":app")
+include(":worn")
 include(":benchmark")

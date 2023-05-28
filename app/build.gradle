@@ -102,6 +102,7 @@ dependencies {
     // https://issuetracker.google.com/issues/new?component=1077552&template=1598429&pli=1
     implementation libs.wear.compose.material
 
+
     // Foundation is additive, so you can use the mobile version in your Wear OS app.
     implementation libs.wear.compose.foundation
 
@@ -112,6 +113,9 @@ dependencies {
 
     // Performance
     implementation libs.androidx.metrics.performance
+
+    // Design System
+    implementation(project(":worn"))
 
     // Google Maps
     implementation libs.com.google.maps.compose
